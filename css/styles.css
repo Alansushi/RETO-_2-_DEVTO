@@ -21,5 +21,30 @@
 
 .colnav {
   margin-left: 5px;
+  margin: 10px 0 10px 0;
+}
+
+.navbold {
+  font-weight: 700;
+  font-size: large;
+  margin: 10px;
+}
+
+.smediabtn {
+  margin: 2px;
+}
+
+.colnavsmedia {
+  margin-left: 5px;
+  margin: 10px 0 10px 0;
+  text-decoration: none;
+}
+
+.smediabtn {
+  color: #2c2c2c;
+}
+
+.navartlist {
+  list-style-type: circle;
 }
 /*# sourceMappingURL=styles.css.map */
