@@ -1,0 +1,28 @@
+$bgbody:rgba(133, 133, 133, 0.151);
+$bgwhite: rgba(255, 255, 255, 0);
+$mainfontweigth: 600;
+$spancolor: rgb(51, 82, 255);
+
+/*estilizado de pagina general*/
+.pagina{
+    background-color: $bgbody;
+}
+
+/*Estilizado de fuentes*/
+.fontmorado{
+    color: $spancolor;
+}
+
+/*Estilizado de nav bar izquierda*/
+.colrecua{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.navicon{
+    margin-right: 10px;
+}
+.colnav{
+    margin-left: 5px;
+}
