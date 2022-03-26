@@ -22,4 +22,8 @@
 .colnav {
   margin-left: 5px;
 }
+
+#titulo_1 a, .titulos_aside, a {
+  text-decoration: none;
+}
 /*# sourceMappingURL=styles.css.map */
