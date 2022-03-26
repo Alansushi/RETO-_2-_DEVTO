@@ -1,12 +1,5 @@
-$bgbody:rgba(133, 133, 133, 0.151);
-$bgwhite: rgba(255, 255, 255, 0);
-$bgtransparente: rgba(255, 255, 255, 0);
-
-$smediaicon:rgb(39, 39, 39);
-$link-color: rgb(44, 44, 44);
-
-$mainfontweigth: 700;
-$spancolor: rgb(51, 82, 255);
+@import "config";
+@import "main";
 
 
 /*estilizado de pagina general*/
@@ -59,36 +52,4 @@ $spancolor: rgb(51, 82, 255);
 }
 
 
-h2 {
-    font-size: 30px;
-    font-weight: bold;
-    
-    
-}
-.card{
-    margin-top: 10px;
-    }
-
-.nav{
-    font-size: 20px;
-    
-    .active{
-        font-weight: bold;
-        
-    }
-    .nav-link{
-        color: $link-color;
-    }
-    .nav-link:hover{
-        color: $spancolor;
-    }
-    
-}
-
-
-
-.button-right {
-    background-color: gray;
-    border: 0px solid gray;
-}
 
