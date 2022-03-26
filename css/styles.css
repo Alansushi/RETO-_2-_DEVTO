@@ -47,4 +47,34 @@
 .navartlist {
   list-style-type: circle;
 }
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.nav {
+  font-size: 20px;
+}
+
+.nav .active {
+  font-weight: bold;
+}
+
+.nav .nav-link {
+  color: #2c2c2c;
+}
+
+.nav .nav-link:hover {
+  color: #3352ff;
+}
+
+.button-right {
+  background-color: gray;
+  border: 0px solid gray;
+}
 /*# sourceMappingURL=styles.css.map */
