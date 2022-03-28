@@ -1,10 +1,10 @@
-$bgbody:rgba(133, 133, 133, 0.151);
-$bgwhite: rgba(255, 255, 255, 0);
-$mainfontweigth: 600;
-$spancolor: rgb(51, 82, 255);
+@import "config";
+@import "main";
+@import "aside_rigth";
 
-/*estilizado de pagina general*/
-.pagina{
+// estilizado de pagina general
+.pagina
+{
     background-color: $bgbody;
 }
 
@@ -32,4 +32,27 @@ $spancolor: rgb(51, 82, 255);
     text-decoration: none;
     
 }
+.navbold{
+    font-weight: $mainfontweigth;
+    font-size: large;
+    margin: 10px;
 
+}
+
+.smediabtn{
+    margin: 2px;
+}
+.colnavsmedia{
+    margin-left: 5px;
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+      
+}
+.smediabtn{
+    color: $link-color;
+    
+}
+
+.navartlist{
+    list-style-type: circle;
+}
