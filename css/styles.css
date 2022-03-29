@@ -47,4 +47,32 @@
 .navartlist {
   list-style-type: circle;
 }
+
+#titulo_1, a {
+  text-decoration: none;
+  color: black;
+}
+
+#titulo_1:hover {
+  color: blue;
+  background-color: white;
+}
+
+.titulos_aside {
+  padding: 10px;
+}
+
+button {
+  width: 90%;
+}
+
+.listado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
 /*# sourceMappingURL=styles.css.map */
