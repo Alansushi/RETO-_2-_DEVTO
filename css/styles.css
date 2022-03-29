@@ -1,3 +1,7 @@
+.scroll-bg {
+  height: 100px;
+}
+
 /*estilizado de pagina general*/
 .pagina {
   background-color: rgba(133, 133, 133, 0.151);
