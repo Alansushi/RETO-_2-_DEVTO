@@ -1,9 +1,9 @@
 @import "config";
 @import "main";
-
-
-/*estilizado de pagina general*/
-.pagina{
+@import "aside-rigth";
+// estilizado de pagina general
+.pagina
+{
     background-color: $bgbody;
 }
 
@@ -24,8 +24,13 @@
 }
 .colnav{
     margin-left: 5px;
+
     margin: 10px 0 10px 0;
 }
+
+// aside derecho
+
+
 .navbold{
     font-weight: $mainfontweigth;
     font-size: large;
@@ -49,7 +54,5 @@
 
 .navartlist{
     list-style-type: circle;
+
 }
-
-
-
