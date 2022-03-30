@@ -84,5 +84,25 @@ $spancolor: rgb(51, 82, 255);
 
 
 }
+#titulo_1, a{
+    text-decoration: none;
+    color: black;
+  }
+  #titulo_1:hover{
+    color:blue;
+    background-color: white;
+  }
+  .titulos_aside{
+    padding: 10px ;
+  }
+  button{
+    width: 90%;
+  }
+  .listado{
+    // outline: solid blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
 
 
