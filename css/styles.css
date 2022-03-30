@@ -60,6 +60,10 @@ button {
   background-color: #fff;
 }
 
+.overflow-y-auto {
+  overflow-y: auto !important;
+}
+
 .logo {
   max-width: 60%;
 }
