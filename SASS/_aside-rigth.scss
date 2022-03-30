@@ -6,6 +6,14 @@
   color:blue;
   background-color: white;
 }
+.contenido, .contenido_1, .contenido_2{
+  border: 1px solid $bgbody;
+  padding: 10px;
+  margin:5px;
+  background-color: white;
+  border-radius: 10px;
+}
+
 .titulos_aside{
   padding: 10px ;
 }

@@ -38,6 +38,14 @@ h2 {
   background-color: white;
 }
 
+.contenido, .contenido_1, .contenido_2 {
+  border: 1px solid rgba(133, 133, 133, 0.151);
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+
 .titulos_aside {
   padding: 10px;
 }
