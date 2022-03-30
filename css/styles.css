@@ -1,3 +1,11 @@
+.contanier {
+  background-color: #fff;
+}
+
+.logo {
+  max-width: 60%;
+}
+
 /*estilizado de pagina general*/
 .pagina {
   background-color: rgba(133, 133, 133, 0.151);
