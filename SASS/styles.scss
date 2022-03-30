@@ -1,3 +1,11 @@
+
+@import "config";
+@import "main";
+@import "aside-rigth";
+// estilizado de pagina general
+
+
+
 $bgbody:rgba(133, 133, 133, 0.151);
 $bgwhite: rgba(255, 255, 255, 0);
 $bgtransparente: rgba(255, 255, 255, 0);
@@ -8,10 +16,21 @@ $link-color: rgb(44, 44, 44);
 $mainfontweigth: 700;
 $spancolor: rgb(51, 82, 255);
 
-@import "scrollbar";
+.contanier {
+
+    background-color: #fff;
+}
+
+.logo {
+
+    max-width: 60%;
+    
+    
+}
 
 /*estilizado de pagina general*/
 .pagina{
+
     background-color: $bgbody;
 }
 
@@ -32,8 +51,13 @@ $spancolor: rgb(51, 82, 255);
 }
 .colnav{
     margin-left: 5px;
+
     margin: 10px 0 10px 0;
 }
+
+// aside derecho
+
+
 .navbold{
     font-weight: $mainfontweigth;
     font-size: large;
@@ -57,4 +81,8 @@ $spancolor: rgb(51, 82, 255);
 
 .navartlist{
     list-style-type: circle;
+
+
 }
+
+
