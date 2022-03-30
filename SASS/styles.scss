@@ -1,9 +1,36 @@
+
 @import "config";
 @import "main";
+@import "aside-rigth";
+// estilizado de pagina general
+.pagina
+{
 
+$bgbody:rgba(133, 133, 133, 0.151);
+$bgwhite: rgba(255, 255, 255, 0);
+$bgtransparente: rgba(255, 255, 255, 0);
+
+$smediaicon:rgb(39, 39, 39);
+$link-color: rgb(44, 44, 44);
+
+$mainfontweigth: 700;
+$spancolor: rgb(51, 82, 255);
+
+.contanier {
+
+    background-color: #fff;
+}
+
+.logo {
+
+    max-width: 60%;
+    
+    
+}
 
 /*estilizado de pagina general*/
 .pagina{
+
     background-color: $bgbody;
 }
 
@@ -24,8 +51,13 @@
 }
 .colnav{
     margin-left: 5px;
+
     margin: 10px 0 10px 0;
 }
+
+// aside derecho
+
+
 .navbold{
     font-weight: $mainfontweigth;
     font-size: large;
@@ -49,7 +81,8 @@
 
 .navartlist{
     list-style-type: circle;
-}
 
+
+}
 
 
