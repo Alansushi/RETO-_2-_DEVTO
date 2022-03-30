@@ -1,3 +1,66 @@
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.nav {
+  font-size: 20px;
+}
+
+.nav .active {
+  font-weight: bold;
+}
+
+.nav .nav-link {
+  color: #2c2c2c;
+}
+
+.nav .nav-link:hover {
+  color: #3352ff;
+}
+
+.button-right {
+  background-color: gray;
+  border: 0px solid gray;
+}
+
+#titulo_1, a {
+  text-decoration: none;
+  color: black;
+}
+
+#titulo_1:hover {
+  color: blue;
+  background-color: white;
+}
+
+.titulos_aside {
+  padding: 10px;
+}
+
+button {
+  width: 90%;
+}
+
+.listado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+.boton_1 {
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
 .contanier {
   background-color: #fff;
 }
