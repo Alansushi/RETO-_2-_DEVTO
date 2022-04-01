@@ -1,4 +1,11 @@
-
+$bghovericonred: rgba(255, 0, 0, 0.182);
+$bghovericongreen: rgba(4, 138, 2, 0.219);
+$bghovericonpurple: rgba(128, 0, 128, 0.168);
+$bghovericongrey: rgba(128, 128, 128, 0.173);
+$hovercoloriconred: red;
+$hovercoloricongreen: rgb(4, 138, 2);
+$hovercoloriconpurple: purple;
+$hovercoloricongrey: grey;
 .colnavsmediaposts{
     display: flex;
     flex-direction: row;
@@ -16,4 +23,31 @@
     align-items: center;
     align-content: center;
     margin: 0 0 2em 0;
+}
+
+#svgheart:hover{
+    padding: 1px;
+    background-color: $bghovericonred;
+    border-radius: 18px;
+    color: $hovercoloricon;
+}
+
+#svghorse :hover{
+    padding: 1px;
+    background-color: $bghovericongreen;
+    border-radius: 18px;
+    color: $hovercoloricongreen;
+
+}
+#svgbookmark:hover{
+    padding: 1px;
+    background-color: $bghovericonpurple;
+    border-radius: 18px;
+    color: $hovercoloriconpurple;
+}
+#svgthreedots:hover{
+    padding: 1px;
+    background-color: $bghovericongrey;
+    border-radius: 18px;
+    color: $hovercoloricongrey;
 }
