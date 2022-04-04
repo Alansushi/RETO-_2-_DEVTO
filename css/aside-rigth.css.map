@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC,CAAC,EAAE,cAAc,EAAE,CAAC,CAAC;EAC3B,eAAe,EAAE,IAAI;CACtB",
+    "sources": [
+        "../SASS/aside-rigth.scss"
+    ],
+    "names": [],
+    "file": "aside-rigth.css"
+}

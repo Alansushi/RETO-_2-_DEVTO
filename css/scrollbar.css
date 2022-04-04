@@ -1,0 +1,24 @@
+.list-group {
+  background-color: grey;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-bg {
+  background-color: grey;
+  width: 100px;
+  margin: 10% auto;
+}
+
+.scroll-div {
+  width: 100px;
+  background: grey;
+  height: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-object {
+  background-color: grey;
+}
+/*# sourceMappingURL=scrollbar.css.map */

@@ -38,6 +38,7 @@ h2 {
   background-color: white;
 }
 
+<<<<<<< HEAD
 .contenido, .contenido_1, .contenido_2 {
   border: 1px solid rgba(133, 133, 133, 0.151);
   padding: 10px;
@@ -46,6 +47,8 @@ h2 {
   border-radius: 10px;
 }
 
+=======
+>>>>>>> 3e240eb517bf5dab226cb6935a19c4de0df5c15a
 .titulos_aside {
   padding: 10px;
 }
@@ -64,13 +67,20 @@ button {
   padding: 10px;
 }
 
+<<<<<<< HEAD
 .boton_1 {
   margin: 0 20px;
   margin-bottom: 10px;
 }
 
+=======
+>>>>>>> 3e240eb517bf5dab226cb6935a19c4de0df5c15a
 .contanier {
   background-color: #fff;
+}
+
+.overflow-y-auto {
+  overflow-y: auto !important;
 }
 
 .logo {
@@ -125,5 +135,33 @@ button {
 
 .navartlist {
   list-style-type: circle;
+}
+
+#titulo_1, a {
+  text-decoration: none;
+  color: black;
+}
+
+#titulo_1:hover {
+  color: blue;
+  background-color: white;
+}
+
+.titulos_aside {
+  padding: 10px;
+}
+
+button {
+  width: 90%;
+}
+
+.listado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
 }
 /*# sourceMappingURL=styles.css.map */

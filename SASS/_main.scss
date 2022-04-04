@@ -1,32 +1,35 @@
 h2 {
-    font-size: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.card {
+  margin-top: 10px;
+}
+.perfil {
+    border: 1px solid black;
+}
+.card-title:hover {
+  color: $fontmorado;
+  
+}
+
+
+
+.nav {
+  font-size: 20px;
+
+  .active {
     font-weight: bold;
-    
-    
+  }
+  .nav-link {
+    color: $link-color;
+  }
+  .nav-link:hover {
+    color: $spancolor;
+  }
 }
-.card{
-    margin-top: 10px;
-    }
-
-.nav{
-    font-size: 20px;
-    
-    .active{
-        font-weight: bold;
-        
-    }
-    .nav-link{
-        color: $link-color;
-    }
-    .nav-link:hover{
-        color: $spancolor;
-    }
-    
-}
-
-
 
 .button-right {
-    background-color: gray;
-    border: 0px solid gray;
+  background-color: gray;
+  border: 0px solid gray;
 }
