@@ -13,12 +13,15 @@
   background-color: white;
   border-radius: 10px;
 }
+.contenido_2{
+  background-color:  rgba(239, 236, 236, 0.993);
+}
 
 .titulos_aside{
   padding: 10px ;
 }
 button{
-  width: 90%;
+  width: 100%;
 }
 .listado{
   // outline: solid blue;
@@ -26,9 +29,75 @@ button{
   justify-content: space-between;
   padding: 10px;
 }
+
 .boton_1{
-  
-  margin: 0 20px;
   margin-bottom: 10px;
   
+}
+
+
+
+
+// aqui empieza el scss de posts
+.cabecera_posts, .c_abajo{
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid rgba(157, 157, 157, 0.53);
+  position: sticky;
+  top: 0;
+
+}
+.cabereca_posts{
+  margin-top: 10px;
+}
+.c_abajo{
+  margin-top: 10px;
+  
+}
+
+
+.logo_1{
+  width: 45px;
+  height: 45px;
+  border-radius: 230px;
+}
+.logo_1, button{
+  margin-top: 10px;
+  
+}
+button{
+  width: 100%;
+  margin: 5px;
+}
+
+.texto{
+  margin: 10px;
+}
+.texto:hover{
+  color:blue;
+}
+
+
+
+
+
+
+
+.c_titulo{
+  display: flex;
+}
+.cris{
+  position: relative;
+  left: 3%;
+  color: blue;
+}
+
+.caja{
+  
+  background-color: $bgbody;
+  border: 1px solid  rgba(157, 157, 157, 0.163);
+  
+}
+.caja:hover{
+  background-color:rgb(253, 253, 253);
 }
