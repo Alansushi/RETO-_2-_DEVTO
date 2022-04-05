@@ -1,3 +1,161 @@
+<<<<<<< HEAD
+=======
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.perfil {
+  border: 1px solid black;
+}
+
+.card-title:hover {
+  color: #6c02a4;
+}
+
+.nav {
+  font-size: 20px;
+}
+
+.nav .active {
+  font-weight: bold;
+}
+
+.nav .nav-link {
+  color: #2c2c2c;
+}
+
+.nav .nav-link:hover {
+  color: #3352ff;
+}
+
+.button-right {
+  background-color: gray;
+  border: 0px solid gray;
+}
+
+#titulo_1, a {
+  text-decoration: none;
+  color: black;
+}
+
+#titulo_1:hover {
+  color: blue;
+  background-color: white;
+}
+
+<<<<<<< HEAD
+.contenido, .contenido_1, .contenido_2 {
+  border: 1px solid rgba(133, 133, 133, 0.151);
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+<<<<<<< HEAD
+=======
+>>>>>>> 3e240eb517bf5dab226cb6935a19c4de0df5c15a
+=======
+.contenido_2 {
+  background-color: rgba(239, 236, 236, 0.993);
+}
+
+>>>>>>> feature/aside
+.titulos_aside {
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+}
+
+.listado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+<<<<<<< HEAD
+.boton_1 {
+  margin-bottom: 10px;
+}
+
+<<<<<<< HEAD
+=======
+>>>>>>> 3e240eb517bf5dab226cb6935a19c4de0df5c15a
+=======
+.cabecera_posts, .c_abajo {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid rgba(157, 157, 157, 0.53);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.cabereca_posts {
+  margin-top: 10px;
+}
+
+.c_abajo {
+  margin-top: 10px;
+}
+
+.logo_1 {
+  width: 45px;
+  height: 45px;
+  border-radius: 230px;
+}
+
+.logo_1, button {
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  margin: 5px;
+}
+
+.texto {
+  margin: 10px;
+}
+
+.texto:hover {
+  color: blue;
+}
+
+.c_titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cris {
+  position: relative;
+  left: 3%;
+  color: blue;
+}
+
+.caja {
+  background-color: rgba(133, 133, 133, 0.151);
+  border: 1px solid rgba(157, 157, 157, 0.163);
+}
+
+.caja:hover {
+  background-color: #fdfdfd;
+}
+
+>>>>>>> feature/aside
+>>>>>>> devo
 .contanier {
   background-color: #fff;
 }
